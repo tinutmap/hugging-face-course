@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "*"
+ipykernel = "*"
+ipywidgets = "*"
+tensorflow = "*"
+pandas = "*"
+datasets = "*"
+evaluate = "*"
+accelerate = "*"
+scikit-learn = "*"
+install = "*"
+tf-keras = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

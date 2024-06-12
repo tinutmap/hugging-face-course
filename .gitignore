@@ -1,0 +1,80 @@
+# General
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+.DS_Store
+.vscode/
+.idea/
+.env
+*.env
+*.log
+*.sqlite3
+*.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.venv.bak/
+env.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.nbconvert/
+*.nbconvert_checkpoints/
+
+# PyTorch specific
+*.pt
+*.pth
+*.onnx
+
+# Hugging Face specific
+.cache/
+huggingface_hub/
+transformers_cache/
+transformers_output/
+dataset_cache/
+
+# Models and large files
+models/
+*.ckpt
+*.h5
+*.weights
+
+# Data files
+data/
+*.csv
+*.tsv
+*.json
+*.xml
+*.pkl
+*.npz
+*.npy
+*.parquet
+*.txt
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+*.txt
+
+# System files
+*.bak
+*.tmp
+*.temp
+
+# Config files
+*.yaml
+*.yml
+*.ini
+config/
+
+#Pytorch checkpoints
+**/checkpoints-*/**
+*.safetensors
+training_args.bin
